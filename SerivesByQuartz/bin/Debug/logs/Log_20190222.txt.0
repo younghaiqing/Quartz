@@ -1,0 +1,60 @@
+2019-02-22 16:59:55,622 [1] INFO  default - 服务开始运行1111111
+2019-02-22 16:59:57,923 [1] INFO  default - 服1111始运行1111111
+2019-02-22 16:59:58,302 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz.NET properties loaded from configuration file 'E:\4.测试代码\SeriversByQuartz\SerivesByQuartz\SerivesByQuartz\bin\Debug\quartz.config'
+2019-02-22 16:59:58,334 [1] WARN  Quartz.Simpl.TaskSchedulingThreadPool - Thread priority is no longer supported for thread pool, ignoring
+2019-02-22 16:59:58,367 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2019-02-22 16:59:58,418 [1] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2019-02-22 16:59:58,421 [1] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.3.0.7.0 created.
+2019-02-22 16:59:58,424 [1] INFO  Quartz.Plugin.Xml.XMLSchedulingDataProcessorPlugin - Registering Quartz Job Initialization Plug-in.
+2019-02-22 16:59:58,426 [1] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2019-02-22 16:59:58,476 [1] INFO  Quartz.Simpl.RemotingSchedulerExporter - Remoting is allowing remote calls
+2019-02-22 16:59:58,477 [1] INFO  Quartz.Simpl.RemotingSchedulerExporter - Registering remoting channel of type 'System.Runtime.Remoting.Channels.Tcp.TcpChannel' to port (555) with name (httpQuartz)
+2019-02-22 16:59:58,477 [1] INFO  Quartz.Simpl.RemotingSchedulerExporter - Remoting channel registered successfully
+2019-02-22 16:59:58,477 [1] INFO  Quartz.Simpl.RemotingSchedulerExporter - Successfully marshalled remotable scheduler under name 'QuartzScheduler'
+2019-02-22 16:59:58,480 [1] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'ServerScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - access via remote invocation.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-02-22 16:59:58,480 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'ServerScheduler' initialized
+2019-02-22 16:59:58,480 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 3.0.7.0
+2019-02-22 16:59:58,497 [1] INFO  Quartz.Xml.XMLSchedulingDataProcessor - Parsing XML file: E:\4.测试代码\SeriversByQuartz\SerivesByQuartz\SerivesByQuartz\bin\Debug\quartz_jobs.xml with systemId: ~/quartz_jobs.xml
+2019-02-22 16:59:58,683 [8] DEBUG Quartz.Xml.XMLSchedulingDataProcessor - Found 0 delete job group commands.
+2019-02-22 16:59:58,683 [8] DEBUG Quartz.Xml.XMLSchedulingDataProcessor - Found 0 delete trigger group commands.
+2019-02-22 16:59:58,683 [8] DEBUG Quartz.Xml.XMLSchedulingDataProcessor - Found 0 delete job commands.
+2019-02-22 16:59:58,683 [8] DEBUG Quartz.Xml.XMLSchedulingDataProcessor - Found 0 delete trigger commands.
+2019-02-22 16:59:58,683 [8] DEBUG Quartz.Xml.XMLSchedulingDataProcessor - Directive 'overwrite-existing-data' specified as: True
+2019-02-22 16:59:58,683 [8] DEBUG Quartz.Xml.XMLSchedulingDataProcessor - Directive 'ignore-duplicates' specified as: False
+2019-02-22 16:59:58,684 [8] DEBUG Quartz.Xml.XMLSchedulingDataProcessor - Directive 'schedule-trigger-relative-to-replaced-trigger' specified as: False
+2019-02-22 16:59:58,684 [8] DEBUG Quartz.Xml.XMLSchedulingDataProcessor - Found 1 job definitions.
+2019-02-22 16:59:58,687 [8] DEBUG Quartz.Xml.XMLSchedulingDataProcessor - Parsed job definition: JobDetail 'sampleGroup.sampleJob':  jobType: 'SerivesByQuartz.TestJob persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: True requestsRecovers: False
+2019-02-22 16:59:58,687 [8] DEBUG Quartz.Xml.XMLSchedulingDataProcessor - Found 1 trigger definitions.
+2019-02-22 16:59:58,692 [8] DEBUG Quartz.Xml.XMLSchedulingDataProcessor - Parsed trigger definition: Trigger 'sampleSimpleGroup.sampleSimpleTrigger':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 
+2019-02-22 16:59:58,707 [8] INFO  Quartz.Xml.XMLSchedulingDataProcessor - Adding 1 jobs, 1 triggers.
+2019-02-22 16:59:58,709 [8] INFO  Quartz.Xml.XMLSchedulingDataProcessor - Adding job: sampleGroup.sampleJob
+2019-02-22 16:59:58,714 [8] DEBUG Quartz.Xml.XMLSchedulingDataProcessor - Scheduling job: sampleGroup.sampleJob with trigger: sampleSimpleGroup.sampleSimpleTrigger
+2019-02-22 16:59:58,722 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler ServerScheduler_$_NON_CLUSTERED started.
+2019-02-22 16:59:58,729 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2019-02-22 16:59:58,739 [5] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'sampleGroup.sampleJob', class=SerivesByQuartz.TestJob
+2019-02-22 16:59:58,743 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2019-02-22 16:59:58,758 [9] DEBUG Quartz.Core.JobRunShell - Calling Execute on job sampleGroup.sampleJob
+2019-02-22 16:59:58,759 [6] INFO  default - Task调度作业开始
+2019-02-22 16:59:58,763 [8] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2019-02-22 16:59:59,690 [5] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'sampleGroup.sampleJob', class=SerivesByQuartz.TestJob
+2019-02-22 16:59:59,691 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2019-02-22 16:59:59,691 [9] DEBUG Quartz.Core.JobRunShell - Calling Execute on job sampleGroup.sampleJob
+2019-02-22 16:59:59,692 [8] INFO  default - Task调度作业开始
+2019-02-22 16:59:59,692 [8] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2019-02-22 17:00:00,699 [5] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'sampleGroup.sampleJob', class=SerivesByQuartz.TestJob
+2019-02-22 17:00:00,701 [6] DEBUG Quartz.Core.JobRunShell - Calling Execute on job sampleGroup.sampleJob
+2019-02-22 17:00:00,701 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2019-02-22 17:00:00,702 [6] INFO  default - Task调度作业开始
+2019-02-22 17:00:00,710 [6] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2019-02-22 17:00:01,696 [5] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'sampleGroup.sampleJob', class=SerivesByQuartz.TestJob
+2019-02-22 17:00:01,696 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2019-02-22 17:00:01,697 [8] DEBUG Quartz.Core.JobRunShell - Calling Execute on job sampleGroup.sampleJob
+2019-02-22 17:00:01,698 [9] INFO  default - Task调度作业开始
+2019-02-22 17:00:01,699 [9] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction

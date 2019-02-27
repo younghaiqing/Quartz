@@ -1,0 +1,1 @@
+E:\4.²âÊÔ´úÂë\SeriversByQuartz\SerivesByQuartz\SerivesByQuartz\bin\Debug\SerivesByQuartz.exe  uninstall
